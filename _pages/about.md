@@ -28,12 +28,12 @@ I'm Huang Yuqi, now a Research Assistant in [Prof. Kam-Fai Wong](https://kfwong.
         <h3>{{ category[1].title }}</h3>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include archive-single.html type="list" %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="list" %}
   {% endfor %}
 {% endif %}
 
