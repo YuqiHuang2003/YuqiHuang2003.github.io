@@ -11,19 +11,15 @@ redirect_from:
 
 Education
 ======
-* B.S. in Harbin Institute of Technology, Shenzhen 2021-2025
+* Bachelor of Computer Science, Harbin Institute of Technology, Shenzhen 2021-2025
 
 Work experience
 ======
 * Fall 2025: Research Assistant
   * The Chinese University of Hongkong
-  * Duties included: Merging pull requests
-  * Supervisor: Kam-Fai Wong
+  * Supervisor: [Prof. Kam-Fai Wong](https://kfwong.cintec.cuhk.edu.hk/)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+
   
 Skills
 ======
