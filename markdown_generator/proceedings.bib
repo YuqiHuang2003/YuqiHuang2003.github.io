@@ -22,3 +22,30 @@
     ISBN = "979-8-89176-332-6",
     abstract = "The advancement of Argument Mining (AM) is hindered by a critical bottleneck: the scarcity of structure-annotated datasets, which are expensive to create manually. Inspired by recent successes in synthetic data generation across various NLP tasks, this paper explores methodologies for LLMs to generate synthetic data for AM.We investigate two complementary synthesis perspectives: a quality-oriented synthesis approach, which employs structure-aware paraphrasing to preserve annotation quality, and a diversity-oriented synthesis approach, which generates novel argumentative texts with diverse topics and argument structures.Experiments on three datasets show that augmenting original training data with our synthetic data, particularly when combining both quality- and diversity-oriented instances, significantly enhances the performance of existing AM models, both in full-data and low-resource settings.Moreover, the positive correlation between synthetic data volume and model performance highlights the scalability of our methods."
 }
+
+@inproceedings{sun-etal-2025-learning,
+    title = "Learning First-Order Logic Rules for Argumentation Mining",
+    author = "Sun, Yang  and
+      Chen, Guanrong  and
+      Alinejad-Rokny, Hamid  and
+      Bao, Jianzhu  and
+      Huang, Yuqi  and
+      Liang, Bin  and
+      Wong, Kam-Fai  and
+      Yang, Min  and
+      Xu, Ruifeng",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.691/",
+    doi = "10.18653/v1/2025.acl-long.691",
+    pages = "14133--14148",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Argumentation Mining (AM) aims to extract argumentative structures from texts by identifying argumentation components (ACs) and their argumentative relations (ARs). While previous works focus on representation learning to encode ACs and AC pairs, they fail to explicitly model the underlying reasoning patterns of AM, resulting in limited interpretability. This paper proposes a novel $\underline{F}$irst-$\underline{O}$rder $\underline{L}$ogic reasoning framework for $\underline{AM}$ (FOL-AM), designed to explicitly capture logical reasoning paths within argumentative texts. By interpreting multiple AM subtasks as a unified relation query task modeled using FOL rules, FOL-AM facilitates multi-hop relational reasoning and enhances interpretability. The framework supports two flexible implementations: a fine-tuned approach to leverage task-specific learning, and a prompt-based method utilizing large language models to harness their generalization capabilities. Extensive experiments on two AM benchmarks demonstrate that FOL-AM outperforms strong baselines while significantly improving explainability."
+}
