@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Home"
-author_profile: false
+author_profile: true
 classes: wide
 redirect_from: 
   - /about/
@@ -26,7 +26,7 @@ I am Huang Yuqi, currently a Research Assistant in [Prof. Kam-Fai Wong](https://
 
 {% include base_path %}
 
-<ul>
+<ul class="publications">
 {% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}

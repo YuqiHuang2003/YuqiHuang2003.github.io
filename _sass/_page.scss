@@ -399,3 +399,13 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+.publications {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 20px 40px;
+  padding-left: 1.2em;
+}
+
+.publications li {
+  max-width: 100%;
+}
