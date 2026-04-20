@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Huang Yuqi"
+title                    : "Huang Yuqi(黄钰祺)"
 title_separator          : "-"
-name                     : &name "Huang Yuqi"
+name                     : &name "Huang Yuqi(黄钰祺)"
 description              : &description "personal description"
 url                      : https://yuqihuang2003.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "https://github.com/YuqiHuang2003/YuqiHuang2003.githu
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Huang Yuqi"
+  name             : "Huang Yuqi(黄钰祺)"
   pronouns         : # example: "she/her"  
   bio              : "Now a Research Assistant in CUHK."
   location         : "Hong Kong, China"
