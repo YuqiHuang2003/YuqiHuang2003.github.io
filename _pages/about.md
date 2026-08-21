@@ -7,15 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Huang Yuqi, currently a Research Assistant in [Prof. Kam-Fai Wong](https://kfwong.cintec.cuhk.edu.hk/)'s group at CUHK. I received my bachelor's degree from Harbin Institute of Technology, Shenzhen, where I was supervised by [Prof. Ruifeng Xu](https://homepage.hit.edu.cn/xuruifeng) in the HLT Group.
+I am Huang Yuqi, a Ph.D. student at The Hong Kong Polytechnic University, supervised by [Prof. Jing Li](https://www4.comp.polyu.edu.hk/~jing1li/). Before that, I worked as a Research Assistant in [Prof. Kam-Fai Wong](https://kfwong.cintec.cuhk.edu.hk/)'s group at The Chinese University of Hong Kong. I received my bachelor's degree in Computer Science from Harbin Institute of Technology, Shenzhen, where I was supervised by [Prof. Ruifeng Xu](https://homepage.hit.edu.cn/xuruifeng) in the HLT Group.
 
 ## Education
 
-- B.Eng. in Computer Science, Harbin Institute of Technology, Shenzhen (2021-2025)
+- Ph.D. student, Department of Computing, The Hong Kong Polytechnic University (Fall 2026 - expected 2030)
+- B.Eng. in Computer Science, Harbin Institute of Technology, Shenzhen (Fall 2021 - Fall 2025)
 
 ## Experience
 
-- Research Assistant, The Chinese University of Hong Kong (Fall 2025-present)  
+- Research Assistant, The Chinese University of Hong Kong (Fall 2025 - Fall 2026)  
   Supervisor: [Prof. Kam-Fai Wong](https://kfwong.cintec.cuhk.edu.hk/)
 
 ## Publications
