@@ -34,6 +34,14 @@
   }
 }
 
+.page.wide {
+  @include breakpoint($large) {
+    @include span(11 of 12 last);
+    @include prefix(0.25 of 12);
+    @include suffix(0);
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
