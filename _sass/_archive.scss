@@ -27,6 +27,33 @@
   }
 }
 
+.archive.publications-page {
+  @include breakpoint($large) {
+    @include span(11 of 12 last);
+    @include prefix(0.25 of 12);
+  }
+
+  .list__item {
+    padding-right: 0;
+  }
+
+  .archive__item-title {
+    margin-bottom: 0.25em;
+    line-height: 1.25;
+  }
+
+  .archive__item p {
+    margin-bottom: 0.25em;
+    max-width: none;
+  }
+
+  .publication__authors,
+  .publication__venue {
+    font-size: $type-size-6;
+    line-height: 1.45;
+  }
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;

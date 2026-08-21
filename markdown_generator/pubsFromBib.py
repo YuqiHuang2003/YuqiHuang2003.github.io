@@ -29,7 +29,7 @@ publist = {
     "proceeding": {
         "file" : "proceedings.bib",
         "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
+        "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
@@ -52,6 +52,11 @@ html_escape_table = {
 def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
+
+def format_author(person):
+    first = " ".join(str(name) for name in person.first_names)
+    last = " ".join(str(name) for name in person.last_names)
+    return f"{first} {last}".strip()
 
 
 for pubsource in publist:
@@ -97,10 +102,13 @@ for pubsource in publist:
 
             #Build Citation from text
             citation = ""
+            authors = []
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                formatted_author = format_author(author)
+                authors.append(formatted_author)
+                citation = citation+" "+formatted_author+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
@@ -116,6 +124,7 @@ for pubsource in publist:
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
+            md += """\ncategory: conferences"""
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
@@ -126,6 +135,8 @@ for pubsource in publist:
                     note = True
 
             md += "\ndate: " + str(pub_date) 
+
+            md += "\nauthors: '" + html_escape(", ".join(authors)) + "'"
 
             md += "\nvenue: '" + html_escape(venue) + "'"
             
