@@ -2,6 +2,20 @@
 
 <!-- start custom head snippets -->
 
+<style>
+  .page.wide .publications .list__item {
+    padding-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .page.wide .publications .archive__item,
+  .page.wide .publications .archive__item-title,
+  .page.wide .publications .publication__authors,
+  .page.wide .publications .publication__venue {
+    max-width: none !important;
+  }
+</style>
+
 {% unless page.url == "/" %}
 <script>
   if (window.location.pathname !== "{{ base_path }}/") {
