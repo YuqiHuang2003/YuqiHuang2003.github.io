@@ -27,6 +27,12 @@
   }
 }
 
+.archive.blog-page {
+  .list__item {
+    padding-right: 0;
+  }
+}
+
 .archive.publications-page {
   @include breakpoint($large) {
     @include span(11 of 12 last);

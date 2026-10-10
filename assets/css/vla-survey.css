@@ -1,0 +1,83 @@
+/* Article-specific styles keep the homepage and other pages unchanged. */
+.vla-survey .page__title {
+  line-height: 1.2;
+}
+
+.vla-survey .vla-toc {
+  margin: 1.5em 0 2em;
+  padding: 0.8em 1em;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  background: #f8fafc;
+}
+
+.vla-survey .vla-toc summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.vla-survey .vla-toc ul {
+  margin-bottom: 0;
+}
+
+.vla-survey .vla-figure {
+  display: block;
+  margin: 1.5em 0;
+}
+
+.vla-survey .vla-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.vla-survey .vla-figure figcaption,
+.vla-survey .vla-caption {
+  margin-top: 0.7em;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.vla-survey .vla-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-top: 1.5em;
+  -webkit-overflow-scrolling: touch;
+}
+
+.vla-survey .vla-table-scroll table {
+  min-width: 760px;
+  margin-bottom: 0;
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+.vla-survey .vla-table-scroll td,
+.vla-survey .vla-table-scroll th {
+  vertical-align: top;
+}
+
+.vla-survey .vla-table-scroll th:nth-child(1) { width: 14%; }
+.vla-survey .vla-table-scroll th:nth-child(2) { width: 18%; }
+.vla-survey .vla-table-scroll th:nth-child(3),
+.vla-survey .vla-table-scroll th:nth-child(4) { width: 34%; }
+
+.vla-survey .vla-references {
+  padding-left: 1.6em;
+  font-size: 0.85em;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.vla-survey .vla-references li {
+  margin-bottom: 0.8em;
+}
+
+.vla-survey [id] {
+  scroll-margin-top: 1em;
+}
+
+.vla-survey .vla-references li:target {
+  background: #f0f7fc;
+  outline: 0.3em solid #f0f7fc;
+}
