@@ -1,0 +1,98 @@
+.tape-project .page__title {
+  line-height: 1.2;
+}
+
+.tape-project .tape-toc {
+  margin: 1.5em 0 2em;
+  padding: 0.8em 1em;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  background: #f8fafc;
+}
+
+.tape-project .tape-toc summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tape-project .tape-toc ul {
+  margin-bottom: 0;
+}
+
+.tape-project .tape-figure {
+  margin: 1.8em 0;
+}
+
+.tape-project .tape-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tape-project .tape-figure figcaption,
+.tape-project .tape-caption {
+  margin-top: 0.75em;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.tape-project .tape-table-scroll,
+.tape-project .tape-equation {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1.5em 0;
+  padding: 0.3em 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tape-project .tape-table-scroll table {
+  width: max-content;
+  max-width: none;
+  margin: 0 auto;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+.tape-project .tape-table-scroll th,
+.tape-project .tape-table-scroll td {
+  white-space: nowrap;
+}
+
+.tape-project .tape-table-scroll th {
+  text-align: center;
+}
+
+.tape-project .tape-table-scroll td {
+  text-align: right;
+}
+
+.tape-project .tape-table-scroll th:first-child,
+.tape-project .tape-table-scroll td:first-child,
+.tape-project #table-ernie td:nth-child(2),
+.tape-project #table-granite td:nth-child(2) {
+  text-align: left;
+}
+
+.tape-project .tape-equation mjx-container[display="true"] {
+  margin: 0.4em 0;
+}
+
+.tape-project .tape-references {
+  padding-left: 1.6em;
+  font-size: 0.85em;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.tape-project .tape-references li {
+  margin-bottom: 0.8em;
+}
+
+.tape-project [id] {
+  scroll-margin-top: 1em;
+}
+
+.tape-project .tape-references li:target {
+  background: #f0f7fc;
+  outline: 0.3em solid #f0f7fc;
+}
