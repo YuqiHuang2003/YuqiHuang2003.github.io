@@ -461,4 +461,6 @@ Table [7](#table-compute) reports, for each run on a single A100-80GB GPU, the w
 
 </div>
 
+*helped by GPT-6.1 sol/Astra and Claude Opus 5.5*
+
 [^model-config]: Layer and expert configurations are taken from the official [ERNIE config](https://huggingface.co/baidu/ERNIE-4.5-21B-A3B-PT/blob/main/config.json) and [Granite config](https://huggingface.co/ibm-granite/granite-3.1-1b-a400m-base/blob/main/config.json) released by the model providers.
